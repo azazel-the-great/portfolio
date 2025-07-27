@@ -17,10 +17,21 @@
         body {
             background-color: #EEEEEE;
         }
+
+        iframe {
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            margin-top: -1%;
+            position: sticky;
+            top: 0;
+            z-index: 90;
+        }
     </style>
 
 </head>
 <body>
+    <iframe src="announcement.htm" frameborder="0" scrolling="no" height="30px"></iframe>
     <header>
         <div data-sticky-container>
             <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
@@ -32,6 +43,7 @@
                 </div>
                 <div class="title-bar-center">
                     <ul class="menu">
+                        <li><a href="paper.htm">Research Papers</a></li>
                         <li><a href="net.htm">Networking</a></li>
                         <li class="is-active"><a href="tech.htm">Technology</a></li>
                         <li><a href="level.htm">Level Design</a></li>
@@ -41,10 +53,11 @@
         </div>
     </header>
     <main style="padding-top: 4%;">
-        <div class="row" >
-            <div class="columns small-4">
-                <a href="#">
-                    <div class="card" style="width:90%;">
+        <div class="row">
+            <div>
+                <h3>2025</h3> <hr>
+                <div class="columns small-12">
+                    <div class="card">
                         <div class="card-divider">
                             <b>Personal Linux Distro</b>
                         </div>
@@ -54,35 +67,7 @@
                             My very own Linux Distro dedicated to my special needs.
                         </div>
                     </div>
-                </a>
-                <a href="#">
-                    <div class="card" style="width:90%;">
-                        <div class="card-divider">
-                            <b>IP-Whitelisted Communication Chatroom using Terminal</b>
-                        </div>
-                        <!-- <img src="assets/img/generic/rectangle-1.jpg"> -->
-                        <div class="card-section">
-                            2023 <br>
-                            A simple communication app using the Debian Linux distro that only allows whitelisted public IP addresses to communicate with other whitelisted users.
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="card" style="width:90%;">
-                        <div class="card-divider">
-                            <b>AI-based Voice Changer</b>
-                        </div>
-                        <!-- <img src="assets/img/generic/rectangle-1.jpg"> -->
-                        <div class="card-section">
-                            2023 <br>
-                            A voice changer that changes my voice real time using AI-generated voice and tested the model using recording Discord calls (with permission).
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="columns small-4">
-                <a href="#">
-                    <div class="card" style="width:90%;">
+                    <div class="card">
                         <div class="card-divider">
                             <b>Homemade File Blockchain</b>
                         </div>
@@ -92,35 +77,12 @@
                             A fork of a previous cloud project but will only allow certain devices to have a specific file saved in the hard drive.
                         </div>
                     </div>
-                </a>
-                <a href="#">
-                    <div class="card" style="width:90%;">
-                        <div class="card-divider">
-                            <b>Peer-to-peer Virtual Private Network</b>
-                        </div>
-                        <!-- <img src="assets/img/generic/rectangle-1.jpg"> -->
-                        <div class="card-section">
-                            2022 <br>
-                            A personal project done with a friend from another country that changes my IP to their IP. (Used for research purposes)
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="card" style="width:90%;">
-                        <div class="card-divider">
-                            <b>Voice-Recognized Personal Assistant with AI-Generated Voice</b>
-                        </div>
-                        <!-- <img src="assets/img/generic/rectangle-1.jpg"> -->
-                        <div class="card-section">
-                            2021 <br>
-                            A personal assistant that recognizes my voice and speaks back.
-                        </div>
-                    </div>
-                </a>
+                </div>
             </div>
-            <div class="columns small-4">
-                <a href="#">
-                    <div class="card" style="width:90%;">
+            <div>
+                <h3>2024</h3> <hr>
+                <div class="columns small-12">
+                    <div class="card">
                         <div class="card-divider">
                             <b>Auto-Download Files in the Cloud</b>
                         </div>
@@ -130,9 +92,34 @@
                             Devices connected to the cloud automatically downloads files in the cloud using the Mint Linux distro for the OS and C++ for the program.
                         </div>
                     </div>
-                </a>
-                <a href="#">
-                    <div class="card" style="width:90%;">
+                </div>
+            </div>
+            <div>
+                <h3>2023</h3> <hr>
+                <div class="columns small-12">
+                    <div class="card">
+                        <div class="card-divider">
+                            <b>IP-Whitelisted Communication Chatroom using Terminal</b>
+                        </div>
+                        <!-- <img src="assets/img/generic/rectangle-1.jpg"> -->
+                        <div class="card-section">
+                            2023 <br>
+                            A simple communication app using the Debian Linux distro that only allows whitelisted public IP addresses to communicate with other whitelisted users.
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-divider">
+                            <b>AI-based Voice Changer</b>
+                        </div>
+                        <!-- <img src="assets/img/generic/rectangle-1.jpg"> -->
+                        <div class="card-section">
+                            2023 <br>
+                            A voice changer that changes my voice real time using AI-generated voice and tested the model using recording Discord calls (with permission).
+                        </div>
+                    </div>
+
+                    <div class="card">
                         <div class="card-divider">
                             <b>AI Discord Friend Recommendation System</b>
                         </div>
@@ -142,9 +129,27 @@
                             A complex Discord friend recommendation system that automatically picks recommended friends from choosing tags you set them on. This requires easy to really personal questions, often resulting to social engineering.
                         </div>
                     </div>
-                </a>
+                </div>
+            </div>
+            <div>
+                <h3>2021</h3> <hr>
+                <div class="columns small-12">
+                    <div class="card">
+                        <div class="card-divider">
+                            <b>Voice-Recognized Personal Assistant with AI-Generated Voice</b>
+                        </div>
+                        <!-- <img src="assets/img/generic/rectangle-1.jpg"> -->
+                        <div class="card-section">
+                            2021 <br>
+                            A personal assistant that recognizes my voice and speaks back.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
+    <footer style="padding: 8%;">
+
+    </footer>
 </body>
 </html>
